@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("Demo SingleChildScrollView")),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(16),
+        padding: EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
